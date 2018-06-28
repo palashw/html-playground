@@ -1,16 +1,11 @@
-li{
-    display: inline;
-    padding-right: 10px;
-}
+h1{
+   font-size: 120px;
+   text-align: center;
+   margin-top: 50px;
+   font-family: sans-serif;
+   letter-spacing: 15px;
+   color: gray;
+   text-transform: lowercase;
+   text-shadow: 6px 10px 10px gray;
 
-ul a{
-text-decoration: none;
-}
-
-ul a:hover{
-    text-decoration: underline;
-}
-
-body{
-    font-family: sans-serif;
 }
