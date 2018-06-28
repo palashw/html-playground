@@ -1,0 +1,85 @@
+.logo{
+  float: left;
+}
+
+.logo img{
+  height: 180px;
+}
+
+.navigation li {
+  display: inline;
+  padding-left: 65px;
+  padding-right: 65px;
+  color: white;
+}
+
+a {
+  text-decoration: none;
+  color: white
+}
+.navigation{
+  background: black;
+  position: sticky;
+  top: 200px;
+}
+
+.header{
+  position: sticky;
+  top: 0; 
+}
+a:hover{
+  color: gray;
+}
+
+nav ul {
+  width: 940px;
+  text-align: center;
+  margin-left: 0;
+  padding: 10px;
+}
+
+.head {
+  float: right;
+}
+  
+.head img {
+  height: 200px;
+  width: 650px;
+}
+
+.hero{
+  display: inline;
+}
+
+.hero img{
+  width: 960px;
+  height: 400px;
+}
+
+.hero p{
+  text-align: center;
+  padding: 50px;
+  padding-top: 0;
+  padding-bottom: 0;
+  font-size: 40px;
+}
+
+.heroinfo{
+  text-align: center;
+  background: url(../img/hero1.jpg);
+  height: 200px;
+  width: 960px;
+  padding: 0;
+}
+.heroinfo li{
+display: inline;
+font-size: 30px;
+}
+
+section h3{
+  box-sizing: border-box;
+  padding: 10px;
+  color: white;
+  font-family: sans-serif; 
+
+}

@@ -1,0 +1,39 @@
+.container_12{
+    background: rgb(238, 213, 213)
+}
+
+nav li{
+    display: inline;
+}
+
+aside{
+    background: green;
+}
+
+.primary{
+    background: #e3e3e3
+}
+
+header{
+    background: rgb(228, 228, 110);
+}
+.clearfix{
+    overflow: hidden;
+}
+.main{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+
+
+nav li{
+    margin-left: 0;
+    margin-right: 10px;
+    margin-top: 20px;
+}
+
+section div {
+    box-sizing: border-box;
+    padding: 10px;
+}
