@@ -9,3 +9,25 @@ h1{
    text-shadow: 6px 10px 10px gray;
 
 }
+
+.box{
+    width: 400px;
+    height: 400px;
+    margin: auto;
+    background: red;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.wrap{
+position: relative;
+width: 800px;
+height: 1000px;
+margin: auto;
+background: gray;
+}
+
+body{
+    margin: 0px;
+}
