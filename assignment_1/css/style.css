@@ -15,7 +15,7 @@
 
 a {
   text-decoration: none;
-  color: white
+  color: white;
 }
 .navigation{
   background: black;
@@ -54,15 +54,21 @@ nav ul {
 .hero img{
   width: 960px;
   height: 400px;
+  padding-top: 0;
+  padding-bottom: 0;
+  margin-top: 0;
+  margin-bottom: 0;
 }
+
 
 .hero p{
   text-align: center;
-  padding: 50px;
+  padding: 0px;
   padding-top: 0;
   padding-bottom: 0;
   font-size: 40px;
 }
+
 
 .heroinfo{
   text-align: center;
@@ -71,15 +77,65 @@ nav ul {
   width: 960px;
   padding: 0;
 }
-.heroinfo li{
-display: inline;
-font-size: 30px;
-}
 
-section h3{
+.heroinfo section{
+  margin-top: 75px;
+}
+h3{
   box-sizing: border-box;
   padding: 10px;
   color: white;
   font-family: sans-serif; 
 
+}
+
+.prefoot a{
+  color: white;
+  text-decoration: none;
+  font-family: sans-serif;
+}
+
+.prefoot a:hover{
+  color: gray;
+}
+
+.prefoot{
+  text-align: center;
+  
+  height: 200px;
+  width: 960px;
+  padding: 0;
+}
+
+.newsletter{
+  background: url(../img/newletter.jpg);
+  height: 200px;
+}
+
+.newsletter h3{
+  margin-top: 75px;
+}
+
+.links{
+  background: url(../img/links2.jpg) ;
+  height: 200px;
+  width: 470px;
+  text-align: center;
+}
+
+.links ul{
+  list-style-type: none;
+  text-align: left;
+  margin-top: 75px;
+  word-spacing: 20px;
+}
+
+.footer ul li {
+  display: inline;
+  padding-left: 120px;
+  padding-right: 120px;
+}
+
+.footer ul{
+  margin-top: 40px;
 }
