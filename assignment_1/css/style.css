@@ -1,9 +1,12 @@
 .logo{
   float: left;
+  height:200px;
+  width: 310px;
 }
 
 .logo img{
-  height: 180px;
+  height: 200px;
+  width: 310px;
 }
 
 .navigation li {
@@ -21,25 +24,29 @@ a {
   background: black;
   position: sticky;
   top: 200px;
-}
-
-.header{
-  position: sticky;
-  top: 0; 
-}
-a:hover{
-  color: gray;
+  padding: 0;
 }
 
 nav ul {
   width: 940px;
   text-align: center;
   margin-left: 0;
-  padding: 10px;
+  margin-top: 0;
+  padding: 20px;
+}
+
+.header{
+  position: sticky;
+  top: 0; 
+}
+
+a:hover{
+  color: gray;
 }
 
 .head {
   float: right;
+  height: 200px;
 }
   
 .head img {
@@ -49,6 +56,9 @@ nav ul {
 
 .hero{
   display: inline;
+  margin-top: 0;
+  margin-bottom: 0;
+  height: 526px;
 }
 
 .hero img{
@@ -69,6 +79,13 @@ nav ul {
   font-size: 40px;
 }
 
+.hero a{
+  padding: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  height: 0px;
+  width: 0px;
+}
 
 .heroinfo{
   text-align: center;
@@ -76,6 +93,7 @@ nav ul {
   height: 200px;
   width: 960px;
   padding: 0;
+  margin-top: 0;
 }
 
 .heroinfo section{
@@ -110,17 +128,23 @@ h3{
 .newsletter{
   background: url(../img/newletter.jpg);
   height: 200px;
+  width: 480px;
+  margin: 0;
+  padding: 0;
 }
 
 .newsletter h3{
   margin-top: 75px;
+  margin-left: 0;;
 }
 
 .links{
   background: url(../img/links2.jpg) ;
   height: 200px;
-  width: 470px;
+  width: 480px;
   text-align: center;
+  margin: 0;
+  padding: 0;
 }
 
 .links ul{
@@ -132,10 +156,35 @@ h3{
 
 .footer ul li {
   display: inline;
-  padding-left: 120px;
-  padding-right: 120px;
+  padding-left: 110px;
+  padding-right: 110px;
+  color: white;
 }
 
-.footer ul{
-  margin-top: 40px;
+.footer{
+  width: 960px;
+  background: black;
+  height: 100px;
+  text-align: center;
+
+}
+
+.ext img{
+  width: 60px;
+  height: 60px;
+}
+
+.ext{
+  margin-top: 20px;
+}
+
+.grid_6{
+  margin-left: 0;
+  margin-right: 0;
+}
+
+
+.container_12{
+  background: rgb(194, 237, 248);
+  width: 960px;
 }

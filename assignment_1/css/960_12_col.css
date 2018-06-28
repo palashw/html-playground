@@ -47,6 +47,13 @@ body {
   margin-right: 10px;
 }
 
+.grid_12 {
+  display: inline;
+  float: left;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
 .push_1, .pull_1,
 .push_2, .pull_2,
 .push_3, .pull_3,
@@ -120,7 +127,7 @@ body {
 }
 
 .container_12 .grid_12 {
-  width: 940px;
+  width: 960px;
 }
 
 /* `Prefix Extra Space >> 12 Columns
