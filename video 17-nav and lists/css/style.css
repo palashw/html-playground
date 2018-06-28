@@ -29,5 +29,74 @@ background: gray;
 }
 
 body{
-    margin: 0px;
+    width: 600px;
+    margin: 20px 20px;
+    font-family: sans-serif;
+}
+
+article h2{
+    font-size: 39px;
+    line-height: 1em;
+    margin-bottom: 0px;
+}
+
+article img{
+    float: left;
+    margin-right: 30px;
+}
+.preview{
+    float: right;
+    width: 350px;
+}
+
+a{
+    color: green
+}
+
+.meta{
+    padding-left: 0px;
+}
+.meta a{
+    font-style: italic;
+    font-style: 14px;
+}
+
+.meta li{
+    display: inline;
+}
+
+.meta li:after {
+    content: "\\";
+    padding: 0 3px;
+    color: #999;
+}
+
+.meta li:last-child:after {
+    content: none;
+}
+
+.post_info {
+    background: rgb(241, 239, 239);
+    color: #999;
+    padding: 3px;
+    font-style: italic;
+}
+
+.post_info a{
+    color: #999;
+    text-decoration: none;
+}
+
+a:hover{
+    color: black;
+}
+
+body{
+    clear: right;
+    font-size: 14px;
+}
+
+.more{
+    float: right;
+    font-style: italic;
 }
