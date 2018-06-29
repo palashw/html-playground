@@ -14,6 +14,9 @@
     padding-left: 65px;
     padding-right: 65px;
     color: white;
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  
   }
   
   .navigation a {
@@ -74,13 +77,12 @@
       text-decoration: none;
       color: white;
       text-shadow: 2px 2px 2px rgb(53, 53, 110);
+      
   }
 #Recording {
     color: white;
 }
-#Recording:hover{
-    color: gray;
-}
+
   .recos h3{
     padding: 20px;
     font-size: 40px;
@@ -110,6 +112,7 @@
 
 #Preorder{
     color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 #Preorder:hover{
@@ -137,3 +140,7 @@
     margin-top: 20px;
   }  
  
+  body{
+      margin-top: 0;
+      margin-bottom: 0;
+  }
