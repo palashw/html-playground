@@ -60,14 +60,12 @@ a:hover{
 }
 
 .hero{
-  background: rgb(146, 241, 241);
+  background: rgb(248, 200, 67);
 }
 
 .hero p{
   text-align: center;
-  padding: 0px;
-  padding-top: 0;
-  padding-bottom: 0;
+  padding: 20px;
   font-size: 40px;
   text-shadow: 2px 2px 2px gray;
   height: 60px;
@@ -140,20 +138,17 @@ h3 {
   word-spacing: 40px;
 }
 
-.footer ul li {
-  display: inline;
-  color: white;
-  padding: 350px;
-}
-
 .footer{
   width: 960px;
-  background: black;
-  height: 100px;
   text-align: center;
-
+  background: black;
 }
 
+.footer p{
+  color: white;
+  padding: 10px;
+}
+  
 .ext img{
   width: 60px;
   height: 60px;
@@ -167,6 +162,5 @@ h3 {
   margin-left: 0;
   margin-right: 0;
 }
-
 
 
