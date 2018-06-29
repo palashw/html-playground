@@ -1,0 +1,79 @@
+.logo{
+    float: left;
+    height:200px;
+    width: 310px;
+  }
+  
+  .logo img{
+    height: 200px;
+    width: 310px;
+  }
+  
+  .navigation li {
+    display: inline;
+    padding-left: 65px;
+    padding-right: 65px;
+    color: white;
+  }
+  
+  .navigation a {
+    text-decoration: none;
+    color: white;
+  }
+  .navigation{
+    background: black;
+    position: sticky;
+    top: 200px;
+    padding: 0;
+  }
+  
+  nav ul {
+    width: 940px;
+    text-align: center;
+    margin-left: 0;
+    margin-top: 0;
+    padding: 20px;
+  }
+  
+  .header{
+    position: sticky;
+    top: 0; 
+  }
+  
+  a:hover{
+    color: gray;
+  }
+  
+  .head {
+    float: right;
+    height: 200px;
+  }
+    
+  .head img {
+    height: 200px;
+    width: 650px;
+  }
+
+  .recos{
+      text-align: center;
+      height: 100px;
+  }
+
+  .recos a{
+      text-decoration: none;
+  }
+  .recos h1{
+      padding: 20px;
+      font-size: 60px;
+      text-decoration: none;
+      color: black;
+  }
+#Recording {
+    color: black;
+}
+  .recos h3{
+    padding: 20px;
+    font-size: 40px;
+}
+  
+ 
