@@ -33,6 +33,7 @@
     margin-left: 0;
     margin-top: 0;
     padding: 20px;
+    margin-bottom: 0px;
   }
   
   .header{
@@ -54,9 +55,14 @@
     width: 650px;
   }
 
+  .hero{
+      background: url(../img/hero5.jpg);
+      background-size: 960px 600px;
+  }
+
   .recos{
       text-align: center;
-      height: 100px;
+      
   }
 
   .recos a{
@@ -66,14 +72,68 @@
       padding: 20px;
       font-size: 60px;
       text-decoration: none;
-      color: black;
+      color: white;
+      text-shadow: 2px 2px 2px rgb(53, 53, 110);
   }
 #Recording {
-    color: black;
+    color: white;
+}
+#Recording:hover{
+    color: gray;
 }
   .recos h3{
     padding: 20px;
     font-size: 40px;
+    color: white;
+    text-shadow: 2px 2px 2px rgb(53, 53, 110);
 }
+
+.albums section img{
+    height: 170px;
+    width: 200px;
+    margin: 10px;
+}
+
+.albums section{
+    padding: 10px;
+}
+
+.offer{
+    background: rgb(252, 213, 40);
+}
+.offer h1{
+    text-align: center;
+}
+.offer h1 a{
+    text-decoration: none;
+}
+
+#Preorder{
+    color: black;
+}
+
+#Preorder:hover{
+    color: gray;
+}
+
+
+.footer{
+    width: 960px;
+    text-align: center;
+    background: black;
+  }
   
+  .footer p{
+    color: white;
+    padding: 10px;
+  }
+    
+  .ext img{
+    width: 60px;
+    height: 60px;
+  }
+  
+  .ext{
+    margin-top: 20px;
+  }  
  
