@@ -54,22 +54,14 @@ a:hover{
   width: 650px;
 }
 
-.hero{
-  display: inline;
-  margin-top: 0;
-  margin-bottom: 0;
-  height: 526px;
-}
-
-.hero img{
+.hero img {
   width: 960px;
   height: 400px;
-  padding-top: 0;
-  padding-bottom: 0;
-  margin-top: 0;
-  margin-bottom: 0;
 }
 
+.hero{
+  background: rgb(146, 241, 241);
+}
 
 .hero p{
   text-align: center;
@@ -77,14 +69,8 @@ a:hover{
   padding-top: 0;
   padding-bottom: 0;
   font-size: 40px;
-}
-
-.hero a{
-  padding: 0;
-  margin-top: 0;
-  margin-bottom: 0;
-  height: 0px;
-  width: 0px;
+  text-shadow: 2px 2px 2px gray;
+  height: 60px;
 }
 
 .heroinfo{
@@ -92,16 +78,15 @@ a:hover{
   background: url(../img/hero1.jpg);
   height: 200px;
   width: 960px;
-  padding: 0;
-  margin-top: 0;
 }
 
 .heroinfo section{
   margin-top: 75px;
 }
-h3{
+
+h3 {
   box-sizing: border-box;
-  padding: 10px;
+  /* padding: 10px; */
   color: white;
   font-family: sans-serif; 
 
@@ -119,7 +104,8 @@ h3{
 
 .prefoot{
   text-align: center;
-  
+  border-left: 0;
+  border-right: 0;
   height: 200px;
   width: 960px;
   padding: 0;
@@ -128,17 +114,17 @@ h3{
 .newsletter{
   background: url(../img/newletter.jpg);
   height: 200px;
-  width: 480px;
+  width: 470px;
   margin: 0;
   padding: 0;
 }
 
-.newsletter h3{
+.newsletter h3 {
   margin-top: 75px;
   margin-left: 0;;
 }
 
-.links{
+.links {
   background: url(../img/links2.jpg) ;
   height: 200px;
   width: 480px;
@@ -147,18 +133,17 @@ h3{
   padding: 0;
 }
 
-.links ul{
+.links ul {
   list-style-type: none;
-  text-align: left;
+  text-align: center;
   margin-top: 75px;
-  word-spacing: 20px;
+  word-spacing: 40px;
 }
 
 .footer ul li {
   display: inline;
-  padding-left: 110px;
-  padding-right: 110px;
   color: white;
+  padding: 350px;
 }
 
 .footer{
@@ -184,7 +169,4 @@ h3{
 }
 
 
-.container_12{
-  background: rgb(194, 237, 248);
-  width: 960px;
-}
+
