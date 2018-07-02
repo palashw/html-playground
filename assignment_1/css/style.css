@@ -1,3 +1,5 @@
+
+/* header logo */
 .logo{
   float: left;
   height:200px;
@@ -9,6 +11,26 @@
   width: 310px;
 }
 
+.header{
+  position: sticky;
+  top: 0; 
+}
+
+a:hover{
+  color: gray;
+}
+
+.head {
+  float: right;
+  height: 200px;
+}
+  
+.head img {
+  height: 200px;
+  width: 650px;
+}
+
+/* navigation css */
 .navigation li {
   display: inline;
   padding-left: 65px;
@@ -37,25 +59,8 @@ nav ul {
   padding: 20px;
 }
 
-.header{
-  position: sticky;
-  top: 0; 
-}
 
-a:hover{
-  color: gray;
-}
-
-.head {
-  float: right;
-  height: 200px;
-}
-  
-.head img {
-  height: 200px;
-  width: 650px;
-}
-
+/* Hero section */
 .hero img {
   width: 960px;
   height: 400px;
@@ -75,6 +80,7 @@ a:hover{
   font-weight: bold;
 }
 
+/* HeroInfo unit */
 .heroinfo{
   text-align: center;
   background: url(../img/hero1.jpg);
@@ -88,7 +94,6 @@ a:hover{
 
 h3 {
   box-sizing: border-box;
-  /* padding: 10px; */
   color: white;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   text-shadow: 2px 2px 2px black;
@@ -96,6 +101,7 @@ h3 {
 
 }
 
+/* Prefoot section */
 .prefoot a{
   color: white;
   text-decoration: none;
@@ -153,6 +159,8 @@ h3 {
   font-style: italic;
 }
 
+
+/* Footer unit */
 .footer{
   width: 960px;
   text-align: center;

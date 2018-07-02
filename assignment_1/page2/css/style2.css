@@ -1,3 +1,5 @@
+
+/* Header unit */
 .logo{
     float: left;
     height:200px;
@@ -8,7 +10,27 @@
     height: 200px;
     width: 310px;
   }
+
+  .header{
+    position: sticky;
+    top: 0; 
+  }
   
+  a:hover{
+    color: gray;
+  }
+  
+  .head {
+    float: right;
+    height: 200px;
+  }
+    
+  .head img {
+    height: 200px;
+    width: 650px;
+  }
+  
+  /* Navigation unit */
   .navigation li {
     display: inline;
     padding-left: 65px;
@@ -39,25 +61,8 @@
     margin-bottom: 0px;
   }
   
-  .header{
-    position: sticky;
-    top: 0; 
-  }
   
-  a:hover{
-    color: gray;
-  }
-  
-  .head {
-    float: right;
-    height: 200px;
-  }
-    
-  .head img {
-    height: 200px;
-    width: 650px;
-  }
-
+/* Hero unit */
   .hero{
       background: url(../img/hero5.jpg);
       background-size: 960px 600px;
@@ -100,6 +105,7 @@
     padding: 10px;
 }
 
+/* Prefoot unit */
 .offer{
     background: rgb(252, 213, 40);
 }
@@ -112,14 +118,13 @@
 
 #Preorder{
     color: black;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 #Preorder:hover{
     color: gray;
 }
 
-
+/* Footer unit */
 .footer{
     width: 960px;
     text-align: center;
